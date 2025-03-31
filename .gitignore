@@ -18,7 +18,7 @@ Models/DDAMFN++/*
 Models/EmoNeXt/*
 Models/PAtt-Lite/*
 Models/ResNet50/*
-Models/ResEmoteNet/*
+Models/ResEmoteNet/* 
 
 !Models/EmoNeXt/EmoNeXt-master
 
@@ -26,13 +26,13 @@ Models/ResEmoteNet/*
 !Models/EmoNeXt/*.pdf
 !Models/PAtt-Lite/*.pdf
 !Models/ResNet50/*.pdf
-!Models/ResEmoteNet/*.pdf
+!Models/ResEmoteNet/*.pdf 
 
 !Models/DDAMFN++/*.docx
 !Models/EmoNeXt/*.docx
 !Models/PAtt-Lite/*.docx
 !Models/ResNet50/*.docx
-!Models/ResEmoteNet/*.docx
+!Models/ResEmoteNet/*.docx 
 
 !Models/DDAMFN++/*.ipynb
 !Models/EmoNeXt/*.ipynb
@@ -40,4 +40,4 @@ Models/ResEmoteNet/*
 !Models/ResNet50/*.ipynb
 !Models/ResEmoteNet/*.ipynb
 
-ResEmoteNet
+ResEmoteNet/*
