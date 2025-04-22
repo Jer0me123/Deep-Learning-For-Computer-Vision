@@ -14,11 +14,16 @@ ResEmoteNet/testing.jpg
 Datasets/*
 !Datasets/*.ipynb
 
-Models/DDAMFN++/*
-Models/EmoNeXt/*
-Models/PAtt-Lite/*
-Models/ResNet50/*
-Models/ResEmoteNet/* 
+*.jpg
+*.tiff
+*pt
+*pth
+*.keras
+Models/DDAMFN++/networks
+Models/DDAMFN++/pretrained
+Models/EmoNeXt/wandb
+Models/PAtt-Lite/logs
+Models/ResEmoteNet/ResEmoteNet-main
 
 !Models/EmoNeXt/EmoNeXt-master
 
@@ -39,5 +44,13 @@ Models/ResEmoteNet/*
 !Models/PAtt-Lite/*.ipynb
 !Models/ResNet50/*.ipynb
 !Models/ResEmoteNet/*.ipynb
+
+!Models/DDAMFN++/BackUps/*.ipynb
+!Models/EmoNeXt/BackUps/*.ipynb
+!Models/PAtt-Lite/BackUps/*.ipynb
+!Models/ResNet50/BackUps/*.ipynb
+!Models/ResEmoteNet/BackUps/*.ipynb
+
+
 
 ResEmoteNet/*
