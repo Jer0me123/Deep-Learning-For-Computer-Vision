@@ -16,14 +16,7 @@ Datasets/*
 
 *.jpg
 *.tiff
-*pt
-*pth
-*.keras
 Models/DDAMFN++/networks
-Models/DDAMFN++/pretrained
-Models/EmoNeXt/wandb
-Models/PAtt-Lite/logs
-Models/ResEmoteNet/ResEmoteNet-main
 
 !Models/EmoNeXt/EmoNeXt-master
 
@@ -54,3 +47,9 @@ Models/ResEmoteNet/ResEmoteNet-main
 
 
 ResEmoteNet/*
+
+Models/DDAMFN++/*
+Models/EmoNeXt/*
+Models/PAtt-Lite/*
+Models/ResNet50/*
+Models/ResEmoteNet/*
