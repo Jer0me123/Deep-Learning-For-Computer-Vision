@@ -1,0 +1,27 @@
+To prepare the datasets for training / testing the models run the individual dataset notebooks
+In addition also run the FaceAlignment notebook to align the facial features across all of the dataset images.
+
+The directory structure should look like this prior to running the dataset notebooks:
+
+AffectNet
+- test
+- train
+- val
+
+CK+
+- ckextended.csv
+
+FER
+- fer2013.csv
+
+JAFFE
+- mapping.csv (More info in JAFFE.ipynb)
+- .tiff images
+
+RAF-DB
+- DATASET
+ - test
+ - train
+- test_labels.csv
+- train_labels.csv
+ 

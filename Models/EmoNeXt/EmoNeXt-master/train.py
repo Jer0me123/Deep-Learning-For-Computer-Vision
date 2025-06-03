@@ -137,7 +137,6 @@ class Trainer:
 
         pbar = tqdm(unit="batch", file=sys.stdout, total=len(self.training_dataloader))
         for batch_idx, data in enumerate(self.training_dataloader):
-            # print(batch_idx, '/', len(self.training_dataloader))
             inputs, labels = data
 
             inputs = inputs.to(self.device)
@@ -186,8 +185,6 @@ class Trainer:
 
             with torch.autocast(self.device.type, enabled=self.amp):
                 predictions, _, loss = self.model(inputs, labels)
-                # print("Predictions: ", predictions)
-                # print("Loss: ", loss)
 
             avg_loss.append(loss.item())
             predicted_labels.extend(predictions.tolist())
@@ -386,7 +383,6 @@ if __name__ == "__main__":
     opt = parser.parse_args()
 
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # exec_name = f"EmoNeXt_ModelSize_{opt.model_size}_Epochs_{opt.epochs}_BatchSize_{opt.batch_size}_LR_{opt.lr}"
     exec_name = f"EmoNeXt_{opt.dataset_name}_best_model_LR_{opt.lr}_BS_{opt.batch_size}_P_{opt.patience}_E_{opt.epochs}_MS_{opt.model_size}_AMP_{opt.amp}_22K_{opt.in_22k}"
 
     wandb.init(project="EmoNeXt", name=exec_name, anonymous="must")
