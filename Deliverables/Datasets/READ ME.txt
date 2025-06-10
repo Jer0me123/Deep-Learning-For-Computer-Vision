@@ -1,4 +1,5 @@
-To prepare the datasets for training / testing the models run the individual dataset notebooks
+To prepare the datasets for training / testing the models, first retrieve the datasets from the links outlined in the respective notebook.
+Then run the individual notebooks to strucutre the datasets as required by the models.
 In addition also run the FaceAlignment notebook to align the facial features across all of the dataset images.
 
 The directory structure should look like this prior to running the dataset notebooks:
